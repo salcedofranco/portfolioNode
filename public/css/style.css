@@ -85,6 +85,8 @@
       background-color: #ffbc04a9;
     }
 
+    button:focus {outline:0 !important;} /*Elimina el borde azul del botón de estilo personalizado css en Chrome
+
 
 
 
