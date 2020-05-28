@@ -77,6 +77,14 @@
       font-size: 18px;
     }
 
+    .navbar-toggler{
+      background-color: #ffbc04a9;
+    }
+
+    body.dark .navbar-toggler{
+      background-color: #ffbc04a9;
+    }
+
 
 
 
