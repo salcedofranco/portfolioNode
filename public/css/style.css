@@ -333,7 +333,18 @@ body.dark .encabezado-texto h3 {
 
   .mdb-lightbox img{
     border-radius: 3%;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(92,92,92,1);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(92,92,92,1);
+    box-shadow: 0px 0px 6px 0px rgba(92,92,92,1);
   }
+
+  body.dark .mdb-lightbox img{
+    border-radius: 3%;
+    -webkit-box-shadow: 0px 0px 8px -8px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 8px -8px rgba(255,255,255,1);
+box-shadow: 0px 0px 8px -8px rgba(255,255,255,1);
+  }
+
 
 
      /*----------------------------------PROYECTOS Y PRACTICAS-------------------------------------*/
@@ -363,14 +374,24 @@ body.dark .encabezado-texto h3 {
       font-weight: bold;
     }
 
-    .proyectoP .mdb-lightbox .content{
+    .box-projects{
+      position: relative;
+      display: flex;
+      width: 100%;
+       flex-wrap: wrap;
+       justify-content: center;
+      margin: auto;
+      padding-bottom: 1em;
+    }
+
+    .proyectoP .box-projects .content{
       text-align: center;
       padding-bottom: 1em;
     
       
     }
 
-    .proyectoP .mdb-lightbox .content .bold{
+    .proyectoP .box-projects .content .bold{
       font-size: large;
       color: #fff;
       margin: 0;
@@ -379,12 +400,17 @@ body.dark .encabezado-texto h3 {
       padding-top: 4px;
       
     }
-    .proyectoP .mdb-lightbox .content .descripcion{
+    .proyectoP .box-projects .content .descripcion{
       font-size: medium;
       color: #fff;
       margin: 0;
       font-family: 'Raleway Regular', arial;
       padding-bottom: 4px;
+      
+    }
+
+    .box-projects img{
+      border-radius: 3%;
       
     }
 
@@ -436,7 +462,7 @@ body.dark .encabezado-texto h3 {
 
     .curriculum .logos p{
       font-family: 'Raleway Regular', arial;
-      color: #a12dd6;
+      color: #7b3591;
     }
 
     @media only screen and (max-width: 350px) {
