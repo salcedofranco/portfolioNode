@@ -26,7 +26,7 @@
 
       /*----------------------------------Navbar------------------------------------*/
       .bg-dark {
-        background:transparent !important;
+        background:#4b4b4b8e !important;
         transition:0.75s ease;
     }
     .bg-dark.scrolled {
@@ -47,15 +47,11 @@
     }
 
     .nav-item a{
-      
       font-weight: bold;
-      
       font-family: 'Raleway Regular', arial;
       font-size: 18px;
-     
-     color: #e7900e!important;
-     
-     text-shadow: 1px 1px 2px rgb(26, 26, 26);
+      color: #e7900e!important;
+      text-shadow: 1px 1px 2px rgb(26, 26, 26);
       
     }
 
