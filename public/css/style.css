@@ -25,26 +25,26 @@
 
 
       /*----------------------------------Navbar------------------------------------*/
-      .bg-dark {
-        background:#4b4b4b8e !important;
-        transition:0.75s ease;
+    .bg-dark {
+      background:#4b4b4b8e !important;
+      transition:0.75s ease;
     }
+
     .bg-dark.scrolled {
-        background:rgb(197, 22, 22) !important;
+      background:rgb(197, 22, 22) !important;
     }
 
-    .navbar-brand{
-      color: #801477 !important;
-      font-weight: bold;
-      font-family: 'Raleway Regular', arial;
-    }
+  .navbar-brand{
+    color: #801477 !important;
+    font-weight: bold;
+    font-family: 'Raleway Regular', arial;
+  }
 
-    body.dark .navbar-brand{
-      color: #ffffff !important;
-      font-weight: bold;
-      font-family: 'Raleway Regular', arial;
-
-    }
+  body.dark .navbar-brand{
+    color: #ffffff !important;
+    font-weight: bold;
+    font-family: 'Raleway Regular', arial;
+  }
 
     .nav-item a{
       font-weight: bold;
@@ -63,8 +63,6 @@
       color: #b858b0 !important;
     }
 
-
-
     body.dark .nav-item a{
       color: #e7900e!important;
       font-weight: bold;
@@ -82,9 +80,6 @@
     }
 
     button:focus {outline:0 !important;} /*Elimina el borde azul del botón de estilo personalizado css en Chrome
-
-
-
 
 
       /*----------------------------------Comienzo Header------------------------------------*/
