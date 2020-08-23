@@ -83,9 +83,23 @@
 
 
       /*----------------------------------Comienzo Header------------------------------------*/
+      .skewed {
+        position: absolute;
+        top: 0;
+        bottom: 9;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        z-index: 0;
+        transform: skewY(6deg);
+        transform-origin: top right;
+      }
+
 .encabezado-texto{
-    padding-top: 11em;
-    padding-bottom: 11em ;
+    padding-top: 14em;
+    padding-bottom: 1em ;
 }
 
 .encabezado-texto h1 {  
@@ -212,14 +226,13 @@ body.dark .encabezado-texto h3 {
     align-items: center;
     background-position: center;
     background-size: cover;
+    padding-top: 15em;
     
   }
 
   body.dark .seccion-one{
     background-image: radial-gradient(circle at 33% 41%, rgba(250, 250, 250,0.03) 0%, rgba(250, 250, 250,0.03) 50%,rgba(37, 37, 37,0.03) 50%, rgba(37, 37, 37,0.03) 100%),radial-gradient(circle at 76% 49%, rgba(28, 28, 28,0.03) 0%, rgba(28, 28, 28,0.03) 50%,rgba(187, 187, 187,0.03) 50%, rgba(187, 187, 187,0.03) 100%),radial-gradient(circle at 41% 99%, rgba(247, 247, 247,0.03) 0%, rgba(247, 247, 247,0.03) 50%,rgba(120, 120, 120,0.03) 50%, rgba(120, 120, 120,0.03) 100%),radial-gradient(circle at 66% 27%, rgba(17, 17, 17,0.03) 0%, rgba(17, 17, 17,0.03) 50%,rgba(156, 156, 156,0.03) 50%, rgba(156, 156, 156,0.03) 100%),linear-gradient(194deg, rgb(20,98,107),rgb(1,82,80));
   }
-
-
 
   .seccion-one h2{
     color: #20df2a;
@@ -230,7 +243,6 @@ body.dark .encabezado-texto h3 {
   body.dark .seccion-one h2{
     color: #a12dd6;
     text-shadow: 1px 1px 3px #000;
-
   }
 
   .seccion-one img {
